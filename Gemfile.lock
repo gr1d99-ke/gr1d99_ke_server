@@ -7,14 +7,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
-    google-protobuf (3.11.4-universal-darwin)
+    google-protobuf (3.11.4)
     googleapis-common-protos-types (1.0.5)
       google-protobuf (~> 3.11)
-    grpc (1.28.0-universal-darwin)
+    grpc (1.28.0)
       google-protobuf (~> 3.11)
       googleapis-common-protos-types (~> 1.0)
     grpc-tools (1.28.0)
-    rake (12.3.2)
+    rake (12.3.3)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -36,7 +36,7 @@ DEPENDENCIES
   gr1d99_ke!
   grpc
   grpc-tools
-  rake (~> 12.0)
+  rake (~> 12.3)
   rspec (~> 3.0)
 
 BUNDLED WITH
