@@ -1,22 +1,22 @@
-require_relative 'lib/gr1d99_ke_server/version'
+require_relative 'lib/gr1d99_ke/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gr1d99_ke_server"
-  spec.version       = Gr1d99KeServer::VERSION
+  spec.name          = "gr1d99_ke"
+  spec.version       = Gr1d99Ke::VERSION
   spec.authors       = ["Gideon Kimutai"]
   spec.email         = ["gideon.kimutai.kim@gmail.com"]
 
   spec.summary       = %q{Simple gRPC implementation.}
   spec.description   = %q{gRPC implementation of services for gr1d99_ke.}
-  spec.homepage      = "https://github.com/gr1d99-ke/gr1d99_ke_server"
+  spec.homepage      = "https://github.com/gr1d99-ke/gr1d99_ke"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   #spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/gr1d99-ke/gr1d99_ke_server"
-  spec.metadata["changelog_uri"] = "https://github.com/gr1d99-ke/gr1d99_ke_server/blob/master/README.md"
+  spec.metadata["source_code_uri"] = "https://github.com/gr1d99-ke/gr1d99_ke"
+  spec.metadata["changelog_uri"] = "https://github.com/gr1d99-ke/gr1d99_ke/blob/master/README.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

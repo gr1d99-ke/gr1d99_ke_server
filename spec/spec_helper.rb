@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "gr1d99_ke_server"
+require "gr1d99_ke"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

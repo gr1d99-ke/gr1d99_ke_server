@@ -1,6 +1,6 @@
 syntax = 'proto3';
 
-service Gr1d99KeServer {
+service Gr1d99Ke {
   rpc Ping (PingRequest) returns (PingReply) {}
 }
 

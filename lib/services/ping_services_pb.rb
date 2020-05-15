@@ -2,16 +2,16 @@
 # Source: ping.proto for package ''
 
 require 'grpc'
-require 'ping_pb'
+require_relative './ping_pb'
 
-module Gr1d99KeServer
+module Gr1d99Ke
   class Service
 
     include GRPC::GenericService
 
     self.marshal_class_method = :encode
     self.unmarshal_class_method = :decode
-    self.service_name = 'Gr1d99KeServer'
+    self.service_name = 'Gr1d99Ke'
 
     rpc :Ping, PingRequest, PingReply
   end
