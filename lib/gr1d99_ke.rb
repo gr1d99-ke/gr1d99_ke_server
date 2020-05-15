@@ -1,10 +1,10 @@
 require 'gr1d99_ke/version'
-require_relative './services/ping_services_pb'
+require 'gr1d99_ke/services/ping/ping_services_pb'
 
 module Gr1d99Ke
   class Error < StandardError; end
 
-  class Server < Gr1d99Ke::Service
+  class Server < Gr1d99Ke::Services::Ping::Service
     def ping(hello_req, _unused_call)
       if hello_req.message.eql?('ping')
         PingReply.new(message: 'pong')

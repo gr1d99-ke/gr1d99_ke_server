@@ -12,3 +12,5 @@
 .rakeTasks
 
 .idea/
+
+*.gem
